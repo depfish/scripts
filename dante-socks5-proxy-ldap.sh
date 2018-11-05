@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# install dante-server_1.4.1 with radius(ldap) auth
+# install dante-server_1.4.1(socks5 proxy) with radius(ldap) auth
 
 apt-get -y install libpam-radius-auth libldap2-dev libpam-ldap
 
